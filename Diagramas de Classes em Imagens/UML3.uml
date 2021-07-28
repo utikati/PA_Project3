@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Utilizadores.Utilizadores</OriginalElement>
+  <nodes>
+    <node x="452.0" y="0.0">Sistema.TempoExecucao</node>
+    <node x="12.5" y="436.0">Utilizadores.Clientes</node>
+    <node x="20.0" y="0.0">Utilizadores.Utilizadores</node>
+    <node x="249.0" y="0.0">Utilizadores.Logs</node>
+    <node x="0.0" y="674.0">Utilizadores.Funcionarios</node>
+    <node x="658.0" y="0.0">Sistema.JavaMail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Utilizadores.Clientes" target="Utilizadores.Utilizadores" relationship="GENERALIZATION">
+      <point x="0.0" y="-94.0" />
+      <point x="0.0" y="193.0" />
+    </edge>
+    <edge source="Utilizadores.Funcionarios" target="Utilizadores.Clientes" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="157.5" y="172.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

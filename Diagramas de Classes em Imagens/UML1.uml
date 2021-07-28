@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Produtos.Encomenda_Produto</OriginalElement>
+  <nodes>
+    <node x="525.0" y="0.0">Produtos.Encomenda_Produto</node>
+    <node x="0.0" y="150.0">Produtos.Produto</node>
+    <node x="10.5" y="0.0">Produtos.Categoria</node>
+    <node x="242.0" y="0.0">Produtos.Encomenda</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Produtos.Produto" target="Produtos.Categoria" relationship="CREATE">
+      <point x="49.25" y="-248.0" />
+      <point x="147.75" y="125.0" />
+      <point x="142.5" y="125.0" />
+      <point x="44.0" y="50.0" />
+    </edge>
+    <edge source="Produtos.Produto" target="Produtos.Categoria" relationship="TO_ONE">
+      <point x="-49.25" y="-248.0" />
+      <point x="49.25" y="125.0" />
+      <point x="54.5" y="125.0" />
+      <point x="-44.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="164.5" y="316.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
